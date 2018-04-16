@@ -1,13 +1,17 @@
 body{
-    margin: 0px;
-    padding: 0px;
+    margin: auto;
+    min-width: 1800px;
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
     background-color: white;
     background-image: url("../img/cropped-s1.png");
     background-repeat: no-repeat;
 }
 .heder{
+    margin: auto;
     width: 100%;
-    margin: 0px;
     padding: 0px;
     border: 1px solid gray;
     width:100%;
@@ -68,9 +72,7 @@ a{
     clear: both;
 }
 .container{
-    margin: 60px 0px 0px 0px;
-    padding: 0px;
-    width: 100%;
+    margin: 60px auto auto auto;
     height: 529px;
     background:url("../img/22.jpg");
     background-repeat: no-repeat;
@@ -144,7 +146,7 @@ input{
     width: 85%;
     min-width: 320px;
     max-width: 700px;
-    position: fixed;
+    position: absolute;
     padding: 15px;
     border: 1px solid #383838;
     background-color: whitesmoke;
@@ -181,7 +183,7 @@ input{
     z-index: 10;
     display: none;
     background-color: rgba(0, 0, 0, 0.65);
-    position: fixed;
+    position: absolute;
     cursor: default;
 }
 .overlay:target {
@@ -218,7 +220,8 @@ input{
 }
 .boxe {
     width: 300px;
-    float: inherit;
+    float: left;
+    margin-left: 25%;
 }
 .top {
     background: #36454A;
